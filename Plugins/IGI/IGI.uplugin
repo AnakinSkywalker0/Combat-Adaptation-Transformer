@@ -1,0 +1,17 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "IGI",
+  "Description": "NVIDIA In-Game Inference for ECHO",
+  "Category": "AI",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "Modules": [
+    {
+      "Name": "IGI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

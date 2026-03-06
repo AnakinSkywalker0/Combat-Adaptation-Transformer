@@ -1,0 +1,34 @@
+# Unreal Engine generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# Visual Studio / Rider
+*.sln
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# UBT / logs
+*.log
+*.tmp
+Echo.png
+
+# Keep source and project files
+!Config/
+!Content/
+!Plugins/
+!Source/
+!*.uproject
+
+# NVIGI SDK pack is large and vendor-provided; keep out of git history
+Plugins/IGI/ThirdParty/nvigi_pack/
+!Plugins/IGI/ThirdParty/copy_nvigi_pack_here.txt

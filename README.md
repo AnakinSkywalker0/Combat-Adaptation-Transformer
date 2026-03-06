@@ -63,3 +63,7 @@ NVIGI SDK pack and model binaries may be excluded from version control due to si
 ## Vision
 
 CAT aims to make boss fights non-scripted and replay-resistant by enabling opponents to learn and adapt during combat, not between patches.
+
+
+
+It’s named Echo in technical files because that is the original Unreal project/module identifier (Echo.uproject, Source/Echo, Echo.Build.cs) created at project initialization, and Unreal requires those core names to stay consistent for builds and generated project structure.

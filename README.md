@@ -40,6 +40,14 @@ NVIGI SDK pack and model binaries may be excluded from version control due to si
 
 `Plugins/IGI/ThirdParty/nvigi_pack/`
 
+### Third-party content (not included)
+
+Only MIT-licensed material is kept in this repo (see `LICENSE` and `THIRD_PARTY_NOTICES.md`). Epic and character assets were removed, so add them back locally before running:
+
+- **Third Person template content** (`Content/ThirdPerson/`, `Content/Characters/`, `Content/LevelPrototyping/`): in Unreal Editor, **Content Drawer -> Add -> Add Feature or Content Pack -> Blueprint -> Third Person**.
+- **Starter Content** (`Content/StarterContent/`): **Add Feature or Content Pack -> Content -> Starter Content**.
+- **Archer character and animations** (`Content/Character_Archer/`): download your own copy from its source and import it to that folder.
+
 ## Quick Start (Windows)
 
 1. Install Unreal Engine 5.5 and Visual Studio 2022 (Desktop C++).
@@ -50,7 +58,7 @@ NVIGI SDK pack and model binaries may be excluded from version control due to si
 5. Open `Echo.sln`.
 6. Set config to `Development Editor` + `Win64`.
 7. Build project `Echo`.
-8. Open `Echo.uproject` in Unreal Editor and run PIE.
+8. Open `Echo.uproject` in Unreal Editor, add the third-party content listed above, then run PIE.
 
 ## Core Files
 
